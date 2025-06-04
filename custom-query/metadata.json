@@ -1,0 +1,12 @@
+{
+    "id": "7bf61ab9-d68d-43f5-89d5-563836b6891e",
+    "queryName": "Raghu-editor-Test",
+    "severity": "HIGH",
+    "category": "Access control",
+    "descriptionText": "traces of roles/editor ",
+    "descriptionUrl": "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_disk",
+    "platform": "Terraform",
+    "descriptionID": "33fb7fa7",
+    "cloudProvider": "gcp",
+    "cwe": "311"
+  }
