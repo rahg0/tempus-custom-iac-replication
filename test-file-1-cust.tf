@@ -39,4 +39,3 @@ module "foo_bucket_perms_3" {
     "roles/editor",
   ]
 }
-
