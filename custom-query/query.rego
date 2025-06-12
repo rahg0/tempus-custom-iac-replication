@@ -12,7 +12,7 @@ CxPolicy[result] {
         "documentId": input.document[i].id,
         "resourceType": "module",                                   # Sets resource type as 'module' (generalized)
         "resourceName": input.document[i].id,                       # Use the resource/module ID as the name
-        "searchKey": sprintf("%s.roles", [input.document[i].id]),
+        "searchKey": sprintf("%s.roles", [name]),
         "issueType": "IncorrectValue",
         "keyExpectedValue": "Please use the most restrictive predefined role that meets your use case requirements.",
         "keyActualValue": sprintf("roles includes %s", [role]),
